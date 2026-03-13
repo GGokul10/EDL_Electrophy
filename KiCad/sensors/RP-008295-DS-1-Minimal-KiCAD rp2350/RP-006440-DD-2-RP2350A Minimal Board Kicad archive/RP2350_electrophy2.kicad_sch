@@ -419,6 +419,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -746,6 +747,8 @@
 			)
 			(embedded_fonts no)
 		)
+=======
+>>>>>>> Stashed changes
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016)
@@ -8612,7 +8615,7 @@
 	)
 	(text "I2C Lines\n"
 		(exclude_from_sim no)
-		(at 387.096 97.536 0)
+		(at 334.772 92.456 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9117,6 +9120,12 @@
 		(uuid "95111805-27de-4c24-ba59-33b53e6f8a23")
 	)
 	(junction
+		(at 271.78 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96120a0c-9c8b-4e5d-9061-003858459d5e")
+	)
+	(junction
 		(at 312.42 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9253,6 +9262,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc726521-1614-4562-a55f-ae8eaf8195b4")
+	)
+	(junction
+		(at 275.59 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdaa98d9-b4fd-43d9-acce-b3ec79256639")
 	)
 	(junction
 		(at 264.16 163.83)
@@ -9748,6 +9763,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 127) (xy 271.78 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd40f65-645e-45c4-80ac-d966c9fc6223")
+	)
+	(wire
+		(pts
 			(xy 339.09 210.82) (xy 326.39 210.82)
 		)
 		(stroke
@@ -10108,6 +10133,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 124.46) (xy 276.9554 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2754f13e-3d57-4aba-9c59-352cb4b2b0da")
+	)
+	(wire
+		(pts
 			(xy 313.69 218.44) (xy 312.42 218.44)
 		)
 		(stroke
@@ -10235,6 +10270,16 @@
 			(type default)
 		)
 		(uuid "371e02e5-9525-4b1b-a04a-66e5f70719a4")
+	)
+	(wire
+		(pts
+			(xy 271.78 127) (xy 276.9554 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377de0ca-b09e-450c-999b-8f82396f6655")
 	)
 	(wire
 		(pts
@@ -10435,6 +10480,16 @@
 			(type default)
 		)
 		(uuid "44a74c9e-b755-42f5-958d-207120eb23f7")
+	)
+	(wire
+		(pts
+			(xy 259.08 119.38) (xy 270.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ba0b42-e011-45da-a0b0-1d2d3e3f12d7")
 	)
 	(wire
 		(pts
@@ -10705,6 +10760,16 @@
 			(type default)
 		)
 		(uuid "5464908b-d283-47bf-a207-8c7b9e007575")
+	)
+	(wire
+		(pts
+			(xy 271.78 135.89) (xy 270.51 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5519d1b7-56a9-4c71-bd62-8b429c49640c")
 	)
 	(wire
 		(pts
@@ -11308,6 +11373,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 275.59 135.89) (xy 273.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756b3ac0-a6ca-410f-8204-880f9388dc42")
+	)
+	(wire
+		(pts
+			(xy 302.26 137.16) (xy 308.7054 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d919cc-eb1d-4cbc-8db1-45e651cb6b30")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 229.87 170.18) (xy 245.11 170.18)
 		)
 		(stroke
@@ -11428,6 +11516,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 400.05 77.47) (xy 334.01 77.47)
 		)
 		(stroke
@@ -11449,6 +11538,9 @@
 	(wire
 		(pts
 			(xy 270.51 127) (xy 276.9554 127)
+=======
+			(xy 270.51 127) (xy 271.78 127)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -12688,7 +12780,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 119.38) (xy 270.51 119.38)
+			(xy 229.87 119.38) (xy 256.54 119.38)
 		)
 		(stroke
 			(width 0)
@@ -13055,6 +13147,16 @@
 			(type default)
 		)
 		(uuid "d5305600-fe76-407c-9120-c5bd3acdfa0b")
+	)
+	(wire
+		(pts
+			(xy 275.59 124.46) (xy 275.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59c7689-4847-494f-99b1-36ffd87a70ad")
 	)
 	(wire
 		(pts
@@ -13518,7 +13620,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 124.46) (xy 276.9554 124.46)
+			(xy 274.32 124.46) (xy 275.59 124.46)
 		)
 		(stroke
 			(width 0)
@@ -17149,13 +17251,19 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Diode:1N5819")
 		(at 212.09 251.46 180)
+=======
+		(lib_id "power:GND")
+		(at 267.97 135.89 180)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "03b5a48a-b7a9-4ff5-9436-cdb10e011211")
 		(property "Reference" "D2"
 			(at 211.582 258.064 0)
@@ -17175,6 +17283,11 @@
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 212.09 247.015 0)
+=======
+		(uuid "015c7e40-3d26-4033-a0e7-189f93622fe3")
+		(property "Reference" "#PWR062"
+			(at 267.97 129.54 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17182,8 +17295,21 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 212.09 251.46 0)
+=======
+		(property "Value" "GND"
+			(at 264.414 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 135.89 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,8 +17317,22 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
 			(at 212.09 251.46 0)
+=======
+		(property "Datasheet" ""
+			(at 267.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 135.89 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17201,14 +17341,19 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "d806b2c7-4c33-4dda-b74c-5a2f6f8cedb1")
 		)
 		(pin "2"
 			(uuid "7649c43c-8c69-4b49-b3aa-9484c617895f")
+=======
+			(uuid "4c9b8596-e75f-4176-8502-7200de6f977a")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "RP2350_electrophy2"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+<<<<<<< Updated upstream
 					(reference "D2")
 					(unit 1)
 				)
@@ -17280,6 +17425,9 @@
 			(project "RP2350_electrophy2"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "R14")
+=======
+					(reference "#PWR062")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -18921,7 +19069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24690ff9-b89c-4880-be15-7f9dea50f084")
-		(property "Reference" "J7"
+		(property "Reference" "I2C"
 			(at 261.62 107.3149 90)
 			(effects
 				(font
@@ -18975,7 +19123,7 @@
 		(instances
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "J7")
+					(reference "I2C")
 					(unit 1)
 				)
 			)
@@ -19050,6 +19198,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 255.27 204.47 0)
 		(unit 1)
@@ -19180,6 +19329,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "Switch:SW_Push")
 		(at 133.35 165.1 0)
 		(unit 1)
@@ -23991,6 +24142,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 265.43 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b631c169-09ad-4f2e-b810-a67e5616f065")
+		(property "Reference" "#PWR053"
+			(at 269.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 261.62 135.8901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 265.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58c1df22-c909-4b95-b5f8-57fd911ab42b")
+		)
+		(instances
+			(project "RP2350_electrophy2"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 93.98 77.47 270)
 		(unit 1)
@@ -26420,6 +26638,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 259.08 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de6daafb-9cdc-4964-8180-584945cb332f")
+		(property "Reference" "I2C"
+			(at 260.35 118.7449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 260.35 121.2849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "227ee0f7-9398-4f34-954b-aa099574e696")
+		)
+		(pin "2"
+			(uuid "4c4fb146-c372-42de-8fcc-e2d0ac8d19c3")
+		)
+		(instances
+			(project "RP2350_electrophy2"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "I2C")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 44.45 148.59 0)
 		(unit 1)
@@ -26625,35 +26913,60 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "Device:LED")
 		(at 243.84 247.65 90)
+=======
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 267.97 140.97 90)
+>>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "e48a3749-a76b-4e98-8de6-d42477a2770f")
 		(property "Reference" "D3"
 			(at 247.65 247.9674 90)
+=======
+		(uuid "e4cf37cf-5cbc-4230-b592-bc184cdd4ea5")
+		(property "Reference" "Distancesensor"
+			(at 269.24 146.05 90)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify right)
 			)
 		)
 		(property "Value" "LED"
 			(at 247.65 250.5074 90)
+=======
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 269.24 143.51 90)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 243.84 247.65 0)
+=======
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 140.97 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26662,7 +26975,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< Updated upstream
 			(at 243.84 247.65 0)
+=======
+			(at 267.97 140.97 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26670,8 +26987,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "Light emitting diode"
 			(at 243.84 247.65 0)
+=======
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 267.97 140.97 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26679,6 +27001,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Sim.Pins" "1=K 2=A"
 			(at 243.84 247.65 0)
 			(effects
@@ -26693,11 +27016,28 @@
 		)
 		(pin "2"
 			(uuid "345e58df-aa7d-498e-910c-a6d16ff85cef")
+=======
+		(pin "3"
+			(uuid "c71e8ce9-7b02-4aed-931a-a5e6e7b26784")
+		)
+		(pin "4"
+			(uuid "3b859afb-8da3-4877-a9a3-750ec5f24c76")
+		)
+		(pin "2"
+			(uuid "f7f979cf-3681-4f66-bf38-1736e33bd7ac")
+		)
+		(pin "1"
+			(uuid "e694238d-95e8-492f-88ec-102d62768944")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+<<<<<<< Updated upstream
 					(reference "D3")
+=======
+					(reference "Distancesensor")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
