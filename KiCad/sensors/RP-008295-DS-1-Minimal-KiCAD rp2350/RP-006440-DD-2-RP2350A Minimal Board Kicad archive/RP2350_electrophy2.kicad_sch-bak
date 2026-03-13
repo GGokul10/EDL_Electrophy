@@ -2997,6 +2997,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4005"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4005"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4005_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4005_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N5819"
 			(pin_numbers
 				(hide yes)
@@ -8394,6 +8561,12 @@
 		(uuid "0c9c6e4c-cee7-4a12-895d-56e036565a50")
 	)
 	(junction
+		(at 91.44 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "107d9551-96bd-43b4-bb9a-32cf4ddfba74")
+	)
+	(junction
 		(at 194.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8484,21 +8657,12 @@
 		(uuid "36d682d1-afa3-490c-a7f1-e6dd257169c0")
 	)
 	(junction
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-		(at 45.72 148.59)
+		(at 92.71 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3dcff8f5-7ea2-406e-a485-1dd741e5d509")
+		(uuid "3a2261e4-eeaf-4e2b-aa6b-d046eafa821b")
 	)
 	(junction
-=======
->>>>>>> 3aa656bdaa79c2887c044e897c9e8d837e7012bf
-=======
->>>>>>> e68bac9d2478ec429ecb45fb514d6a2bd016ccc1
->>>>>>> Stashed changes
 		(at 119.38 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8641,6 +8805,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "742991b9-383c-4475-9ab8-b48a09da867b")
+	)
+	(junction
+		(at 114.3 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77e78801-ab59-4b46-ad0a-4999253fae98")
 	)
 	(junction
 		(at 354.4254 119.38)
@@ -9232,6 +9402,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 165.1) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024b1981-6152-4f32-8bc8-2c8013d6d17d")
+	)
+	(wire
+		(pts
 			(xy 146.05 95.25) (xy 146.05 107.95)
 		)
 		(stroke
@@ -9449,16 +9629,6 @@
 			(type default)
 		)
 		(uuid "0e3039b3-3de4-4c0a-8afc-cb207621d2e3")
-	)
-	(wire
-		(pts
-			(xy 45.72 148.59) (xy 50.8 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e49aef4-622d-4d7d-a0c3-04b4c64d5538")
 	)
 	(wire
 		(pts
@@ -10152,6 +10322,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 177.8) (xy 91.44 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4905ded7-016b-446f-9997-1fafc27a970c")
+	)
+	(wire
+		(pts
 			(xy 199.39 81.28) (xy 201.93 81.28)
 		)
 		(stroke
@@ -10262,25 +10442,16 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-			(xy 45.72 148.59) (xy 45.72 162.56)
+			(xy 91.44 165.1) (xy 92.71 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "504472ae-7748-4b70-97dd-742e9ad7edec")
+		(uuid "4fa2f8b2-0b16-4c9b-be45-8c9e4a1afc5e")
 	)
 	(wire
 		(pts
-=======
->>>>>>> 3aa656bdaa79c2887c044e897c9e8d837e7012bf
-=======
->>>>>>> e68bac9d2478ec429ecb45fb514d6a2bd016ccc1
->>>>>>> Stashed changes
 			(xy 229.87 114.3) (xy 245.11 114.3)
 		)
 		(stroke
@@ -11151,16 +11322,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 149.86) (xy 50.8 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846543d5-8ec7-4d81-8fd1-59b7b48a0a68")
-	)
-	(wire
-		(pts
 			(xy 274.32 95.25) (xy 304.8 95.25)
 		)
 		(stroke
@@ -11278,16 +11439,6 @@
 			(type default)
 		)
 		(uuid "8a8ca0c5-27dc-4098-9486-0a1e7bfcef03")
-	)
-	(wire
-		(pts
-			(xy 44.45 148.59) (xy 45.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8da4ba-0273-4abd-92ea-876ec73a06ee")
 	)
 	(wire
 		(pts
@@ -11538,6 +11689,16 @@
 			(type default)
 		)
 		(uuid "979ee3e7-e2f6-4f38-9b28-e7cda7dce954")
+	)
+	(wire
+		(pts
+			(xy 91.44 177.8) (xy 91.44 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c0f7e1-3777-4223-97b7-339f0ca208ec")
 	)
 	(wire
 		(pts
@@ -11958,6 +12119,16 @@
 			(type default)
 		)
 		(uuid "b1eb01f9-1b71-4b0a-8c6f-4e45e642faa0")
+	)
+	(wire
+		(pts
+			(xy 92.71 165.1) (xy 92.71 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e4eade-8875-4821-9831-943a476e1356")
 	)
 	(wire
 		(pts
@@ -12548,16 +12719,6 @@
 			(type default)
 		)
 		(uuid "d37df971-75c7-46ab-809e-be56c7f66eea")
-	)
-	(wire
-		(pts
-			(xy 50.8 157.48) (xy 50.8 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e742c7-0840-4a0e-a2f1-bf64f033e387")
 	)
 	(wire
 		(pts
@@ -13211,6 +13372,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 165.1) (xy 91.44 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77153b7-32e8-4dca-84eb-175ee921e3eb")
+	)
+	(wire
+		(pts
 			(xy 166.37 71.12) (xy 166.37 69.85)
 		)
 		(stroke
@@ -13388,16 +13559,6 @@
 			(justify left bottom)
 		)
 		(uuid "12cae942-0cd1-4040-a209-b49a8bb1411f")
-	)
-	(label "GPIO 18"
-		(at 33.02 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14829c6b-2fa0-4c8d-bae4-9a846265d675")
 	)
 	(label "GPIO11"
 		(at 339.09 213.36 180)
@@ -13809,16 +13970,6 @@
 		)
 		(uuid "7aaa34c8-ba07-4f7e-9b7a-bb7b640c5f7a")
 	)
-	(label "GPIO 16"
-		(at 58.42 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d2d727c-3f4d-4c30-8a3a-11ba0e8715c1")
-	)
 	(label "GPIO 22"
 		(at 348.0754 149.86 180)
 		(effects
@@ -13859,16 +14010,6 @@
 		)
 		(uuid "87875b11-c7dc-4ce8-88f9-c0ac2fce339a")
 	)
-	(label "GPIO 19"
-		(at 58.42 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a684899-5556-4518-950d-539743409309")
-	)
 	(label "QSPI_SD2"
 		(at 152.4 132.08 0)
 		(effects
@@ -13888,16 +14029,6 @@
 			(justify right bottom)
 		)
 		(uuid "8c195964-076f-462a-98b3-afc24dcc929c")
-	)
-	(label "GPIO 17"
-		(at 33.02 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99310678-1214-45df-8160-0dc125e7c79d")
 	)
 	(label "USB_D-"
 		(at 262.89 104.14 180)
@@ -16629,7 +16760,7 @@
 			)
 		)
 		(property "Value" "0.1uf"
-			(at 251.714 166.37 90)
+			(at 254 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16891,6 +17022,74 @@
 			(project "RP2350_electrophy"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819")
+		(at 46.99 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0af4db4e-294a-4ea8-98ce-5747d48e0923")
+		(property "Reference" "D2"
+			(at 46.6725 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 46.6725 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 46.99 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+			(at 46.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 46.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "660d0e98-8e48-452f-8570-9fee352f85f4")
+		)
+		(pin "1"
+			(uuid "32024b8e-4c16-4dcd-8bd3-a30caa7a8ddd")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17177,90 +17376,6 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 45.72 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10371d40-88eb-4759-93d8-45fe776f0593")
-		(property "Reference" "U8"
-			(at 36.83 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 53.34 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 45.72 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 45.72 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d48f9a7-c8d5-4867-8e8b-894de9e16637")
-		)
-		(pin "2"
-			(uuid "4c2dc3d3-a2d6-47fc-b45f-d1ce9d5e3a7b")
-		)
-		(pin "3"
-			(uuid "87b284b1-100a-4c21-9198-24b290ebb942")
-		)
-		(pin "4"
-			(uuid "ba93f472-08a7-4b0c-a003-ad71a061b958")
-		)
-		(pin "5"
-			(uuid "ec3d79fe-33fb-4e81-8417-bff5db782f6e")
-		)
-		(pin "6"
-			(uuid "d8d2107a-a184-4d2a-8115-574ebed16194")
-		)
-		(pin "7"
-			(uuid "05f97bbe-417e-438a-8956-e2d6e5006c8b")
-		)
-		(pin "8"
-			(uuid "6febc448-b82b-40d0-a17a-07e0acb0e5c2")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -20496,73 +20611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "865f9443-2890-4f48-b4c7-c06d66444d7c")
-		(property "Reference" "C29"
-			(at 61.214 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 65.786 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 174.2948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd058b71-06c3-437f-a21d-2ac82bdb7505")
-		)
-		(pin "2"
-			(uuid "3a4302c3-ffc3-4585-b8c4-accc14a85d9e")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 354.33 83.82 0)
 		(unit 1)
@@ -20837,73 +20885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 58.42 185.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "978673fa-9637-4a1a-91f3-8a9d98a80c1a")
-		(property "Reference" "#PWR037"
-			(at 54.61 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 62.23 185.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 58.42 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f82dc0be-9825-4651-85b7-6aa764d629a4")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 378.5554 102.87 90)
 		(unit 1)
@@ -21100,76 +21081,6 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 58.42 181.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e87df79-0bc5-4d06-b26f-85a752ab6d31")
-		(property "Reference" "C22"
-			(at 62.23 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 62.23 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 57.4548 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 58.42 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bafb0ce-e6ea-4d5e-b7b7-8db6fb6c6636")
-		)
-		(pin "2"
-			(uuid "84f18f02-ba41-47e0-93b0-4d8d051026dc")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -21651,74 +21562,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aee9aa06-a050-4311-951d-51bb2986b2c3")
-		(property "Reference" "C30"
-			(at 53.721 152.5016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 53.721 154.813 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 51.7652 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf6118a8-9205-4b13-a615-f1babe05898a")
-		)
-		(pin "2"
-			(uuid "1e6d6982-0d4e-43e5-8416-5cffe868e932")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 154.94 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22048,6 +21891,72 @@
 			(project "RP2350_electrophy"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 348.0754 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3ae0f29-ad01-4945-8cec-df1b3b63085d")
+		(property "Reference" "#PWR044"
+			(at 348.0754 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 348.0754 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 348.0754 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 348.0754 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 348.0754 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d51133-3623-4d5e-993b-407332c6855e")
+		)
+		(instances
+			(project "RP2350_electrophy"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23927,6 +23836,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4005")
+		(at 52.07 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4546372-38a6-492d-9803-5d453854d197")
+		(property "Reference" "D3"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4005"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 52.07 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 52.07 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600V 1A General Purpose Rectifier Diode, DO-41"
+			(at 52.07 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 52.07 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 52.07 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42fa4da5-d62e-4c13-b736-eab5b30c9f9f")
+		)
+		(pin "2"
+			(uuid "a53bfcd3-c93a-4ea5-828b-5aa69fadd6c5")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 184.15 245.11 270)
 		(unit 1)
@@ -24474,70 +24469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 44.45 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df67402b-3ece-4f86-b7df-b61506cdd72e")
-		(property "Reference" "#PWR050"
-			(at 44.45 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 44.831 144.1958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a6c0974-4126-403b-a228-6ffa385cec32")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 308.7054 107.95 0)
 		(unit 1)
@@ -25004,70 +24935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f22d96ae-9cc7-461d-adb9-70050c0bb0ff")
-		(property "Reference" "#PWR051"
-			(at 50.8 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82c769a8-c1b4-4df6-b4c0-2457cecad43d")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 289.6554 109.22 0)
 		(unit 1)
@@ -25192,73 +25059,6 @@
 			(project "RP2350_60QFN_minimal"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 66.04 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9387947-ea73-4a3e-b1cf-b1d61c5ea6e5")
-		(property "Reference" "#PWR038"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 69.85 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e201f5b9-7e6b-49dc-8999-f65d66bf03c8")
-		)
-		(instances
-			(project "RP2350_electrophy2"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
