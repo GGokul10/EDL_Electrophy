@@ -17424,7 +17424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "10k"
 			(at 116.078 32.258 0)
 			(effects
 				(font
@@ -20483,7 +20483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "10k"
 			(at 85.344 41.148 0)
 			(effects
 				(font
@@ -21656,7 +21656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 228.092 252.73 90)
 			(effects
 				(font
@@ -22285,7 +22285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "10k"
 			(at 112.522 69.088 0)
 			(effects
 				(font
@@ -25062,7 +25062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "10k"
 			(at 126.238 44.704 0)
 			(effects
 				(font
