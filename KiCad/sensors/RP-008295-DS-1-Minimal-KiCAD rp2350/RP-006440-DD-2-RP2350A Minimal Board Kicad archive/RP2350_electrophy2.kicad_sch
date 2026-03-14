@@ -8701,6 +8701,16 @@
 		)
 		(uuid "26758d1f-3112-4288-96d8-54cbeb06ea2f")
 	)
+	(text "boot\n"
+		(exclude_from_sim no)
+		(at 119.634 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32f3d60c-7e56-4161-8967-30e887cfee76")
+	)
 	(text "LIPO BATTERY\n"
 		(exclude_from_sim no)
 		(at 174.244 247.396 0)
@@ -8724,7 +8734,6 @@
 		)
 		(uuid "7079d14d-ebaf-4eb3-b264-7a4faf0b923e")
 	)
-<<<<<<< Updated upstream
 	(text "reset\n"
 		(exclude_from_sim no)
 		(at 59.69 77.724 0)
@@ -8744,19 +8753,6 @@
 			)
 		)
 		(uuid "8e3b06b0-4d74-4a3c-82f3-81a6c38688f1")
-=======
-	(text "POWER MANAGEMENT\n"
-		(exclude_from_sim no)
-		(at 147.32 227.584 0)
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.6)
-				(bold yes)
-			)
-		)
-		(uuid "8bf7d66a-f068-4eab-a793-995b7364e1a8")
->>>>>>> Stashed changes
 	)
 	(text "POWER MANAGEMENT\n"
 		(exclude_from_sim no)
@@ -9094,6 +9090,12 @@
 		(uuid "7e0a84b5-8ef5-41a5-94a9-b1b628c9932a")
 	)
 	(junction
+		(at 358.14 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f85b0fc-e55c-4cc1-9d98-5f62933c46b4")
+	)
+	(junction
 		(at 312.42 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9104,6 +9106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8086f3f2-543f-4758-82a4-27eb204d0229")
+	)
+	(junction
+		(at 334.01 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "809155c6-13d1-4c5d-bce8-07a8a8b619b7")
 	)
 	(junction
 		(at 384.81 226.06)
@@ -9356,6 +9364,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d528b856-7e21-4606-8615-8427ec7a7c92")
+	)
+	(junction
+		(at 129.54 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a8437c-c2ff-4751-bbd4-3ae948565ce7")
 	)
 	(junction
 		(at 107.95 90.17)
@@ -9875,7 +9889,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 95.25) (xy 359.5054 95.25)
+			(xy 354.33 95.25) (xy 358.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10082,6 +10096,16 @@
 			(type default)
 		)
 		(uuid "20aac2de-5c48-4e17-9d19-eb2075ab504c")
+	)
+	(wire
+		(pts
+			(xy 396.24 71.12) (xy 402.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212f6cf9-3f83-45dc-b00c-e1f7979bb55b")
 	)
 	(wire
 		(pts
@@ -10655,6 +10679,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 36.83) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3dbe17-204c-4fa2-944f-5d6ed94b0d4f")
+	)
+	(wire
+		(pts
 			(xy 234.95 60.96) (xy 246.38 60.96)
 		)
 		(stroke
@@ -10755,7 +10789,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 97.79) (xy 344.2654 97.79)
+			(xy 334.01 97.79) (xy 344.2654 97.79)
 		)
 		(stroke
 			(width 0)
@@ -11135,6 +11169,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 97.79) (xy 334.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7bf96c-290c-4a48-9f68-eb2a64a39d2c")
+	)
+	(wire
+		(pts
 			(xy 372.2054 134.62) (xy 384.81 134.62)
 		)
 		(stroke
@@ -11495,6 +11539,16 @@
 	)
 	(wire
 		(pts
+			(xy 400.05 77.47) (xy 334.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf08389-ad51-4a19-bb18-9187c11bb836")
+	)
+	(wire
+		(pts
 			(xy 304.8 134.62) (xy 318.77 134.62)
 		)
 		(stroke
@@ -11745,6 +11799,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 35.56) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6fedc8-b4be-432d-a2c3-111e2ef99880")
+	)
+	(wire
+		(pts
 			(xy 339.09 226.06) (xy 326.39 226.06)
 		)
 		(stroke
@@ -11862,6 +11926,16 @@
 			(type default)
 		)
 		(uuid "8da05908-f3cf-457d-b3b9-3f63eb76c6c2")
+	)
+	(wire
+		(pts
+			(xy 402.59 92.71) (xy 358.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dff1184-8d8a-48ca-8bc2-f1eabe3d2ff8")
 	)
 	(wire
 		(pts
@@ -12272,6 +12346,16 @@
 			(type default)
 		)
 		(uuid "a613cd59-4a58-4fd8-8ade-46704a393f79")
+	)
+	(wire
+		(pts
+			(xy 400.05 73.66) (xy 400.05 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6828064-c9df-4502-a7f7-0ec75504ba31")
 	)
 	(wire
 		(pts
@@ -12752,6 +12836,16 @@
 			(type default)
 		)
 		(uuid "bfe527ed-bd7b-49d4-8ca3-6593bc6a3b9a")
+	)
+	(wire
+		(pts
+			(xy 358.14 92.71) (xy 358.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c131194f-b3e8-4dae-b824-9a7a40caf946")
 	)
 	(wire
 		(pts
@@ -13345,6 +13439,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 77.47) (xy 334.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e162bcee-f87e-41fd-98f6-5ab32f18c460")
+	)
+	(wire
+		(pts
 			(xy 270.51 97.79) (xy 302.26 97.79)
 		)
 		(stroke
@@ -13415,7 +13519,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
 			(xy 293.37 132.08) (xy 293.37 125.73)
 		)
 		(stroke
@@ -13446,8 +13549,6 @@
 	)
 	(wire
 		(pts
-=======
->>>>>>> Stashed changes
 			(xy 73.66 63.5) (xy 73.66 64.77)
 		)
 		(stroke
@@ -13455,6 +13556,16 @@
 			(type default)
 		)
 		(uuid "e7b5271b-a881-4a6e-abe4-84c0524b2505")
+	)
+	(wire
+		(pts
+			(xy 129.54 36.83) (xy 119.38 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80bc7ee-df12-483a-9b3a-d35635dc598a")
 	)
 	(wire
 		(pts
@@ -13585,6 +13696,16 @@
 			(type default)
 		)
 		(uuid "ebd85b47-3853-491d-b5eb-8e8b856b9d04")
+	)
+	(wire
+		(pts
+			(xy 396.24 73.66) (xy 400.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec67a988-e83d-4385-bbde-79b031a50d31")
 	)
 	(wire
 		(pts
@@ -17303,19 +17424,13 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
 		(property "Value" "10k"
 			(at 116.078 32.258 0)
-=======
-		(property "Value" "5K"
-			(at 116.078 30.226 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -18478,6 +18593,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 396.24 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20bb464a-eaa0-4b81-b604-efe619abf906")
+		(property "Reference" "#PWR073"
+			(at 402.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.272 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 396.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13853803-272c-48a5-b4ce-851d8288b2ac")
+		)
+		(instances
+			(project "RP2350_electrophy2"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 322.58 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18916,7 +19096,6 @@
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "J7")
-<<<<<<< Updated upstream
 					(unit 1)
 				)
 			)
@@ -18986,8 +19165,6 @@
 			(project "RP2350_electrophy2"
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "SW4")
-=======
->>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -19260,7 +19437,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 119.38 36.83 270)
+		(at 133.35 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19269,7 +19446,7 @@
 		(fields_autoplaced yes)
 		(uuid "36d1a776-1010-4cf1-9b16-4ed32ad758eb")
 		(property "Reference" "#PWR060"
-			(at 115.57 36.83 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19278,7 +19455,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 123.19 36.8299 90)
+			(at 137.16 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19287,7 +19464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 36.83 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19296,7 +19473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 36.83 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19305,7 +19482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 36.83 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19735,6 +19912,86 @@
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 391.16 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48a2b140-664a-4c3c-a1b4-df54ab76556b")
+		(property "Reference" "J11"
+			(at 391.795 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 391.795 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 391.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3d165732-d83f-4707-8766-6ca70bc76a80")
+		)
+		(pin "3"
+			(uuid "d3c65a9c-9220-411d-9efc-e1e6e0fe470b")
+		)
+		(pin "1"
+			(uuid "a7b468c8-26a8-433e-b2ce-866a80bee218")
+		)
+		(pin "2"
+			(uuid "0cd654f7-a5b1-4867-9f9b-f05a5ab36d39")
+		)
+		(pin "4"
+			(uuid "35c418cb-660f-485f-81f7-8268fb77d316")
+		)
+		(pin "6"
+			(uuid "f00b2a97-b411-4d01-8c81-534e240cadb2")
+		)
+		(instances
+			(project ""
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -22686,6 +22943,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 396.24 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a014ec57-9d3c-421e-a369-92add5d3393e")
+		(property "Reference" "#PWR072"
+			(at 392.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 400.05 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 396.24 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b35db7-3e28-4546-8c3c-e23e1898159c")
+		)
+		(instances
+			(project "RP2350_electrophy2"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 317.5 74.93 0)
 		(unit 1)
@@ -23439,44 +23763,25 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 372.11 71.12 0)
-=======
-		(lib_id "power:GND")
-		(at 166.37 247.65 0)
->>>>>>> Stashed changes
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-<<<<<<< Updated upstream
 		(uuid "bb7a126f-6905-48ed-9c75-f3c64ac42648")
 		(property "Reference" "J12"
 			(at 372.745 66.04 0)
-=======
-		(uuid "ba7dabdd-71df-4070-a654-4e7811a85a34")
-		(property "Reference" "#PWR054"
-			(at 166.37 254 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< Updated upstream
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
 			(at 372.745 68.58 0)
-=======
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 252.73 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23484,11 +23789,7 @@
 			)
 		)
 		(property "Footprint" ""
-<<<<<<< Updated upstream
 			(at 372.11 71.12 0)
-=======
-			(at 166.37 247.65 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23496,13 +23797,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
 		(property "Datasheet" "~"
 			(at 372.11 71.12 0)
-=======
-		(property "Datasheet" ""
-			(at 166.37 247.65 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23510,13 +23806,8 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 372.11 71.12 0)
-=======
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 247.65 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23524,7 +23815,6 @@
 				(hide yes)
 			)
 		)
-<<<<<<< Updated upstream
 		(pin "2"
 			(uuid "a81fcd7c-345d-4414-95c8-f100725e7f70")
 		)
@@ -23535,15 +23825,6 @@
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "J12")
-=======
-		(pin "1"
-			(uuid "db0bf28d-a9d4-4329-b780-f6e9b4434f6a")
-		)
-		(instances
-			(project "RP2350_electrophy"
-				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
-					(reference "#PWR054")
->>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -24781,13 +25062,8 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
 		(property "Value" "10k"
 			(at 126.238 44.704 0)
-=======
-		(property "Value" "5K"
-			(at 124.968 42.926 0)
->>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25936,7 +26212,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
 		(lib_id "power:GND")
 		(at 245.11 243.84 90)
 		(unit 1)
@@ -26070,8 +26345,6 @@
 		)
 	)
 	(symbol
-=======
->>>>>>> Stashed changes
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 184.15 246.38 0)
 		(unit 1)
