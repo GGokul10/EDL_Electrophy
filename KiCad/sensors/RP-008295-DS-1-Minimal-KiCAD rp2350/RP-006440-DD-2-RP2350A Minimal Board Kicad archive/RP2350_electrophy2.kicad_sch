@@ -8620,6 +8620,16 @@
 		)
 		(uuid "26758d1f-3112-4288-96d8-54cbeb06ea2f")
 	)
+	(text "boot\n"
+		(exclude_from_sim no)
+		(at 119.634 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32f3d60c-7e56-4161-8967-30e887cfee76")
+	)
 	(text "LIPO BATTERY\n"
 		(exclude_from_sim no)
 		(at 188.214 249.936 0)
@@ -8643,6 +8653,16 @@
 		)
 		(uuid "7079d14d-ebaf-4eb3-b264-7a4faf0b923e")
 	)
+	(text "reset\n"
+		(exclude_from_sim no)
+		(at 59.69 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "76361e3f-86c0-4fc2-8db6-8698b204c0eb")
+	)
 	(text "POWER MANAGEMENT\n"
 		(exclude_from_sim no)
 		(at 147.32 227.584 0)
@@ -8654,6 +8674,16 @@
 			)
 		)
 		(uuid "8bf7d66a-f068-4eab-a793-995b7364e1a8")
+	)
+	(text "flash\n"
+		(exclude_from_sim no)
+		(at 135.128 30.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e3b06b0-4d74-4a3c-82f3-81a6c38688f1")
 	)
 	(text "POWER MANAGEMENT\n"
 		(exclude_from_sim no)
@@ -9289,6 +9319,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d528b856-7e21-4606-8615-8427ec7a7c92")
+	)
+	(junction
+		(at 129.54 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a8437c-c2ff-4751-bbd4-3ae948565ce7")
 	)
 	(junction
 		(at 107.95 90.17)
@@ -10588,6 +10624,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 36.83) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3dbe17-204c-4fa2-944f-5d6ed94b0d4f")
+	)
+	(wire
+		(pts
 			(xy 234.95 60.96) (xy 246.38 60.96)
 		)
 		(stroke
@@ -11695,6 +11741,16 @@
 			(type default)
 		)
 		(uuid "8a35d700-22ef-474f-9ab9-25fdb557a1ef")
+	)
+	(wire
+		(pts
+			(xy 129.54 35.56) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6fedc8-b4be-432d-a2c3-111e2ef99880")
 	)
 	(wire
 		(pts
@@ -13405,6 +13461,16 @@
 			(type default)
 		)
 		(uuid "e7b5271b-a881-4a6e-abe4-84c0524b2505")
+	)
+	(wire
+		(pts
+			(xy 129.54 36.83) (xy 119.38 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80bc7ee-df12-483a-9b3a-d35635dc598a")
 	)
 	(wire
 		(pts
@@ -17304,13 +17370,12 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 116.078 30.226 0)
+			(at 116.078 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -18976,6 +19041,78 @@
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "J7")
+<<<<<<< Updated upstream
+=======
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 129.54 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "256b95c2-1c3a-4d0c-b318-77686eced71a")
+		(property "Reference" "SW4"
+			(at 120.396 29.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 119.38 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 129.54 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "860513b7-bbe4-4396-9faf-77081adff334")
+		)
+		(pin "2"
+			(uuid "4ff03767-b69f-4f88-be56-387c90602497")
+		)
+		(instances
+			(project "RP2350_electrophy2"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "SW4")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -19248,7 +19385,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 119.38 36.83 270)
+		(at 133.35 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19257,7 +19394,7 @@
 		(fields_autoplaced yes)
 		(uuid "36d1a776-1010-4cf1-9b16-4ed32ad758eb")
 		(property "Reference" "#PWR060"
-			(at 115.57 36.83 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19266,7 +19403,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 123.19 36.8299 90)
+			(at 137.16 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19275,7 +19412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 36.83 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19284,7 +19421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 36.83 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19293,7 +19430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 36.83 0)
+			(at 133.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25688,7 +25825,7 @@
 			)
 		)
 		(property "Value" "5K"
-			(at 124.968 42.926 0)
+			(at 126.238 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27037,6 +27174,72 @@
 			(project ""
 				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edaa3248-69dc-4038-8efc-ad888a433721")
+		(property "Reference" "#PWR074"
+			(at 129.54 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be419b3a-0887-4ea0-a28f-d671ea5ae456")
+		)
+		(instances
+			(project "RP2350_electrophy2"
+				(path "/94683f5c-9cd9-448e-be96-9792537b5cb8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
